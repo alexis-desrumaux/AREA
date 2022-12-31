@@ -1,0 +1,32 @@
+.action
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.action_btn
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.action_btn__noneColorButton
+{
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.action_btn__noneColorButton:focus
+{
+    outline: none;
+}

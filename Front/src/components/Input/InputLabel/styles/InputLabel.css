@@ -1,0 +1,30 @@
+.block
+{
+    width: 700px;
+    height: 100px;
+}
+
+.block_label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.block_input
+{
+    width: 600px;
+    height: 50px;
+}
+
+.block_input::placeholder
+{
+    opacity: 0.4;
+    font-family: 'Roboto', sans-serif;
+}

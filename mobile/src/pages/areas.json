@@ -1,0 +1,98 @@
+{
+    "apis": [
+        {
+            "name": "gmail",
+            "displayName": "GMAIL",
+            "backgroundColor": "#d2392F",
+            "actions": [
+                "Réception d'un nouveau mail important",
+                "Un nouveau brouillon a été créé",
+                "Un nouveau mail a été envoyé"
+            ],
+            "reactions": [
+                "Reception d'un mail notifiant l'action",
+                "Suppression du dernier mail de la boite de réception",
+                "Suppression du dernier mail de la catégorie brouillons"
+
+            ]
+        },
+        {
+            "name": "facebook",
+            "displayName": "FACEBOOK",
+            "backgroundColor": "#3b589c",
+            "actions": [
+                "Le profil a été modifié",
+                "Une nouvelle page a été créée"
+            ],
+            "reactions": [
+                "Réception d'un mail notifiant l'action",
+                "Réception un message sur la page de son choix",
+                "Modification de la description de la page de son choix"
+            ]
+        },
+        {
+            "name": "gdrive",
+            "displayName": "GDRIVE",
+            "backgroundColor": "#00ac47",
+            "actions": [
+                "Un nouveau fichier a été stocké dans le drive",
+                "Un fichier a été ajouté ou supprimé des favoris",
+                "Une nouvelle vidéo a été stocké dans le drive",
+                "Une nouvelle image a été stocké dans le drive"
+            ],
+            "reactions": [
+                "Réception d'un mail notifiant l'action",
+                "Réception d'un nouveau fichier dans le drive",
+                "Suppression des fichiers de la corbeille"
+            ]
+        },
+        {
+            "name": "yammer",
+            "displayName": "YAMMER",
+            "backgroundColor": "#0178d4",
+            "actions": [
+                "Un nouveau message a été reçu sur votre réseau",
+                "Vous avez envoyé un nouveau message",
+                "Un nouveau message privé a été reçu ou envoyé",
+                "Un nouveau message a été posté sur un thread suivi"
+            ],
+            "reactions": [
+                "Envoie un like sur le dernier message reçu",
+                "Supprime un like sur le dernier message reçu",
+                "Envoie un like sur le dernier message privé reçu",
+                "Supprime un like sur le dernier message privé reçu",
+                "Réception d'un mail"
+            ]
+        },
+        {
+            "name": "twitch",
+            "displayName": "TWITCH",
+            "backgroundColor": "#a800ff",
+            "actions": [
+                "Vous avez suivi ou quitté une chaîne",
+                "La chaîne top stream du moment a changé",
+                "Le jeu du moment a changé"
+            ],
+            "reactions": [
+                "Vous suivez la chaîne top stream",
+                "Vous quittez la chaîne top stream",
+                "Changement de la description de la chaîne twitch",
+                "Réception d'un mail"
+            ]
+        },
+        {
+            "name": "discord",
+            "displayName": "DISCORD",
+            "backgroundColor": "#363636",
+            "actions": [
+                "Le pseudo a été modifié",
+                "La photo de profile a été modifié",
+                "Vous rejoignez ou quittez un serveur",
+                "Vous ajoutez ou supprimez un nouveau service sur discord"
+            ],
+            "reactions": [
+                "Réception d'un mail notifiant l'action"
+            ]
+        }
+    ]
+}

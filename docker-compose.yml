@@ -1,0 +1,25 @@
+version: '3'
+services:
+  client_web:
+    build: ./Front
+    ports:
+    - "8081:8081"
+    depends_on:
+    - server
+    - client_mobile
+    volumes:
+            - app-volume:/appdata
+  client_mobile:
+    build: ./mobile
+    depends_on:
+    - server
+    volumes:
+            - app-volume:/appdata
+    ports:
+    - "8082:8082"
+  server:
+    build: ./Backend
+    ports:
+    - "8080:8080"
+volumes:
+     app-volume: 

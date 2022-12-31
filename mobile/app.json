@@ -1,0 +1,12 @@
+{
+  "name": "AreaMobile",
+  "displayName": "AreaMobile",
+  "expo": {
+    "name": "AreaMobile",
+    "slug": "AreaMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

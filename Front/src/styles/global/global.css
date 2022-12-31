@@ -1,0 +1,17 @@
+@import "./fonts.css";
+
+.clear_both
+{
+    clear: both;
+}
+
+.none_color_button
+{
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.none_color_button:focus {
+    outline: none;
+}
